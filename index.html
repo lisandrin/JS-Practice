@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form js</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>  
+<body>
+    <div class="content-area">
+        <div class="container">
+            <div class="wrap-login">
+                <div class="login-box">
+                    <div class="user-pic">
+                        <div class="user-bgc">
+                            <img src="./imgs/man.png" alt="#user" style="filter: brightness(5)">
+                        </div>
+                    </div> 
+                    <div id = "form">
+                        <span class="arrow"><img src="./imgs/up-arrow.png" alt=""></span>
+                        <div class="input">
+                            <span><img src="./imgs/user.png" alt=""></span>
+                            <input id = "name" type="text" placeholder="Username" >
+                        </div>
+                        <div class="input">
+                            <span><img src="./imgs/padlock.png" alt=""></span>
+                            <input id = "password" type="text" placeholder="Password">
+                        </div>
+                        <button type = "submit" onclick = "validForm(this)" id = "result" class="lgn-btn">Login</button>
+                        <span>Forgot Password? <a href="#clickhere">Click Here</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
